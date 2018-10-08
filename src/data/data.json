@@ -1,0 +1,29 @@
+[{
+    "chanpin": "mysql",
+    "day": "60天",
+    "cpu": "2核cpu",
+    "neicun": "4gb内存",
+    "pan": "40G系统盘",
+    "pan1": "100G数据盘"
+}, {
+    "chanpin": "postgresql",
+    "day": "60天",
+    "cpu": "2核cpu",
+    "neicun": "4gb内存",
+    "pan": "40G系统盘",
+    "pan1": "100G数据盘"
+}, {
+    "chanpin": "sql sever",
+    "day": "60天",
+    "cpu": "2核cpu",
+    "neicun": "4gb内存",
+    "pan": "40G系统盘",
+    "pan1": "100G数据盘"
+}, {
+    "chanpin": "mongodb",
+    "day": "60天",
+    "cpu": "2核cpu",
+    "neicun": "4gb内存",
+    "pan": "40G系统盘",
+    "pan1": "100G数据盘"
+}]
