@@ -16,7 +16,7 @@
             <p>安全可靠滴滴数据库服务，人气精选，轻松挂你</p>
         </header>
         <main>
-            <div class="content">
+            <div class="content" id="content">
                 <ul>
                     <li><input type="checkbox">mysql</li>
                     <li>60天</li>
@@ -30,7 +30,7 @@
                     </li>
                 </ol>
             </div>
-            <div class="content">
+            <div class="content" id="content">
                 <ul>
                     <li><input type="checkbox">mysql</li>
                     <li>60天</li>
@@ -44,7 +44,7 @@
                     </li>
                 </ol>
             </div>
-            <div class="content">
+            <div class="content" id="content">
                 <ul>
                     <li><input type="checkbox">mysql</li>
                     <li>60天</li>
@@ -58,7 +58,7 @@
                     </li>
                 </ol>
             </div>
-            <div class="content">
+            <div class="content" id="content">
                 <ul>
                     <li><input type="checkbox">mysql</li>
                     <li>60天</li>
@@ -73,7 +73,18 @@
                 </ol>
             </div>
         </main>
+        <footer>
+            <p>mysql</p>
+            <b>免费试用60天</b>
+            <p>原价￥1020.00</p>
+        </footer>
     </div>
+    <script>
+        var content = document.getElementById('content');
+        content.onclick = function() {
+            content.style.border = "3px solid red"
+        }
+    </script>
 </body>
 
 </html>
